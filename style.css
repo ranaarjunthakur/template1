@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: lightpink;
+    display: flex;
+    /* overflow: hidden; */
+}
+
+#part1{
+    height: 100%;
+    width:26%;
+    /* background-color: red; */
+}
+
+#part2{
+    height: 100%;
+    width:67%;
+    background-image: url(https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size:cover;
+    background-position: center;
+    background-color: rgb(58, 226, 36);
+}
+
+#part3{
+    height: 100%;
+    width:7%;
+    /* background-color: rgb(20, 194, 171); */
+}
+
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #03030350;
+}
+
+#textDiv{
+    position: absolute;
+    /* height: 300px; */
+    width: 400px;
+    left: 7%;
+    top: 50%;
+    transform: translate(0,-50%);
+    /* background-color: #fff; */
+}
+#textDiv>h1{
+    font-size: 95px;
+    line-height: 75px;
+    font-family: monument;
+    font-weight: 900;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#smallImgDiv{
+    height: 400px;
+    width:300px;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0,-50%);
+    background-image: url(https://images.pexels.com/photos/2036646/pexels-photo-2036646.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-size: cover;
+    /* background-color: #fff; */
+}
+
+#overlayIn{
+    height: 100%;
+    width: 100%;
+    background-color: #03030350;
+}
+
+
+#verticalText{
+    position: absolute;
+    right: -31%;
+    top: 13%;
+    /* z-index: 5; */
+    transform: rotate(90deg);
+    transform-origin: 0%,0%;
+    /* width: 100%; */
+    /* background-color: #ff1313; */
+}
+
+#verticalText>h1{
+    font-size: 72px;
+    font-weight: 900;
+    letter-spacing: 15px;
+    color: transparent;
+    font-family: monument;
+    text-transform: uppercase;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 2px;
+}
+
+
+#nav{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    left: 8%;
+    top: 5%;
+    /* background-color: #fff; */
+}
+
+#nav img{
+height: 60px;
+}
+
+#nav h5{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: gilroy;
+    color: #fff;
+}
